@@ -1,0 +1,62 @@
+body {
+	background: #ff6;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	background: red;
+	text-align: center;
+	padding: 5px;
+	
+}
+
+header, footer {
+	background: green;
+	height: 100px;
+}
+
+#content {
+	background: blue;
+	padding-top: 5px;
+}
+
+.colonne1, .colonne2 {
+	background: white;
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	
+}
+.colonne1 {
+	width: 600px;
+}
+.colonne2{
+	width:350px;
+}
+.bloc1, .bloc2 {
+	width: 100%;
+	height: 250px;
+	background: gray;
+	margin: 5px 0;
+}
+.article{
+	width: 100%;
+	height:300px;
+	background: yellow;
+	
+}
+article{
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	height: 270px;
+	background: orange;
+}
+.article {
+	width: 100%;
+	background: purple;
+	padding:5px 0;
+}
