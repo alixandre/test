@@ -1,0 +1,214 @@
+body{
+  height: 100%;
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html{
+  width: 100%;
+  height: auto;
+}
+.bigwrapper{
+  width: 100%;
+}
+header{
+  background-image: url(img/hero-1680.original.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 700px;
+  background-position: center center;
+}
+header ul{
+  list-style: none;
+  margin-right: 500px;
+}
+header li{
+  display: inline-block;
+}
+.aside{
+  padding-left: 1140px;
+  position: absolute;
+  margin-top: -70px;
+}
+.aside span{
+  font-size: 29px;
+}
+.first {
+  position: relative;
+}
+.campusis{
+width: 100%;
+height: 100%;
+padding: 200px;
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+padding-left: 350px;
+display: block;
+}
+.para_1{
+  position: absolute;
+  padding-top: 350px;
+  padding-left: 230px;
+  font-size: 30px;
+}
+.contain{
+  width: 100%;
+  margin-top: 10px;
+}
+.firstphoto{
+  float: left;
+}
+.text {
+float: right;
+background-color: #b3e6ff;
+width: 43%;
+height: 499px;
+padding-bottom: 7px;
+margin: 1px;
+}
+.text h3{
+font-size: 30px;
+margin-top: 50px;
+margin-left: 25px;
+}
+.text p{
+  font-size: 22px;
+  margin: 37px;
+  line-height: 1.5;
+}
+.secphoto img{
+  float: right;
+  margin-top: 10px;
+  display: inline-block;
+}
+.text_2{
+  float: left;
+  padding-left: 16px;
+  margin-top: 30px;
+  display: inline-block;
+  width: 43%;
+}
+.text_2 h3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+.text_2 p{
+  font-size: 18px;
+  line-height: 1.5;
+}
+.botton_1{
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 113px;
+  border-radius: 10px;
+}
+.botton_1 a{
+  background-color: #ffe6ff;
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.botton_1 a:hover{
+
+}
+.botton {
+  position: absolute;
+  padding-top: 16px;
+  padding-left: 150px;
+  border-radius: 10px;
+}
+.botton a{
+  background-color: #ffe6ff;
+  display: block;
+  color: #cccccc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.botton a:hover{
+  background-color: #ddd;
+  color: black;
+  border: solid 1px #CCC;
+   -moz-box-shadow: 1px 1px 5px #999;
+   -webkit-box-shadow: 1px 1px 5px #999;
+       box-shadow: 1px 1px 5px #999;
+}
+.lastpara{
+  width: 100%;
+  height: 440px;
+  padding-top: 1041px;
+}
+.bakimg{
+background-image: url(img/coworking-1680.original.jpg);
+height: 450px;
+background-position: center center;
+background-size: cover;
+}
+.lastpara img{
+  width: 100%;
+  height: auto;
+}
+.toxton {
+  position: absolute;
+  top: 1844px;
+  right: 16px;
+  background-color: hsla(0, 100%, 90%, 0.3);;
+  opacity:
+  color:white;
+}
+.toxton h3{
+  font-size: 30px;
+}
+.toxton p{
+  font-size: 20px;
+}
+.under{
+  width: 72%;
+}
+.under img{
+margin: 0px;
+padding: 32px;
+height: 186px;
+width: 130px;
+}
+.under h2{
+  font-size:40px ;
+  color:gray ;
+  letter-spacing: 1.5px;
+}
+footer{
+background-color: #e1e1d0;
+height: 300px;
+width: 100%;
+
+}
+.social{
+  padding: 26px;
+}
+.social li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 1.5rem 0 0 ;
+}
+.footlast li{
+  list-style: none;
+  display: inline-block;
+}
+.footlast{
+  padding: 26px;
+}
+.footlast span{
+  font-size: 29px;
+}
