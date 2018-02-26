@@ -1,0 +1,334 @@
+body{
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: #707173;
+  background-size: cover;
+}
+/*big side bar*/
+#sidebar{
+  position: fixed;
+  background: #232424;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 0 3%;
+  width: 25%;
+  height: 85%;
+  padding: 5% 0;
+  z-index: 10;
+}
+/*black*/
+#bigblack{
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  max-width: 100%;
+}
+.headercontainer{
+  width: 100%;
+  margin: 0 auto;
+}
+/*logo*/
+#midlogo{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+/*nav li*/
+.headercontainer nav{
+  margin: 60px 0;
+}
+.headercontainer nav ul{
+  margin: 0;
+  padding: 0;
+}
+.headercontainer nav li{
+  position: relative;
+  display: block;
+  text-align: left;
+  margin: 20px 0;
+  padding: 0 5% 0 30%;
+  list-style: none;
+}
+#bigblack a{
+  color: #fff;
+  text-decoration: none;
+}
+#bigblack a:hover{
+  color: #ccd049;
+}
+/*black footer*/
+.footercontainer{
+  bottom: 0;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.legales{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.legales li{
+  display: inline-block;
+  list-style: none;
+}
+/*lang li*/
+#maincontainer{
+  margin: 0;
+  padding: 0;
+}
+.langlist{
+  position: absolute;
+  background: #232424;
+  right: 10%;
+  color: #fff;
+  padding: 12px 30px;
+  top: 0;
+  z-index: 10;
+}
+.langlist ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.langlist li{
+  display: inline-block;
+  font-size: 28px;
+  text-decoration: none;
+  color: #ccd049;
+  /*border-right: 2px solid white;*/
+}
+.langlist a{
+  color: #ccd049;
+  text-decoration: none;
+}
+.langlist a:hover{
+  color: #fff;
+}
+/*its the big photo and the words on it*/
+.bagr{
+  position: fixed;
+  line-height: 0;
+  min-height: 40px;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.firstpara{
+  position: absolute;
+  bottom: 200px;
+  right: 5%;
+  width: 80%;
+  padding: 0 5px 5px;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.opa_1{
+  opacity: 1;
+  box-sizing: border-box;
+  min-height: 50px;
+  color: #bfff00;
+  padding-top: 15px;
+  line-height: normal;
+  text-align: right;
+  width: 100%;
+  z-index: 3;
+  position: relative;
+}
+.title{
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0 0 0 30%;
+}
+.smatitle{
+  font-size: 52px;
+  margin: 0;
+  padding: 0;
+  color: #bfff00;
+  line-height: normal;
+  text-align: right;
+}
+/*here is the container and the sub*/
+/* 1 */
+#container{
+  background: #fff none repeat scroll 0 0;
+  margin: 55% 0 0;
+  float: right;
+  position: relative;
+  width: 100%;
+}
+.text{
+  margin: 0 5% 0 32%;
+}
+.text h1{
+  text-align: right;
+  width: 46%;
+  display: inline-block;
+  margin: 40px 3% 0 0;
+  vertical-align: top;
+  padding: 40px 0 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #ccd049;
+  font-weight: 400;
+}
+.presentation{
+  width: 45%;
+  display: inline-block;
+  border-left: 5px solid #ccd049;
+  padding: 20px 0 130px 3%;
+  margin: 40px 0 0;
+  color: #232424;
+}
+/* 2 */
+#awel{
+  position: relative;
+  padding: 60px 0;
+  margin: -60px 0 0 28%;
+}
+#midcontainer{
+  z-index: 1;
+  position: relative;
+}
+#midcontainer .image{
+  display: inline-block;
+  max-height: 400px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 55%;
+}
+#midcontainer .image img{
+  border: 0;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+#midcontainer .text{
+  width: 33%;
+  display: inline-block;
+  margin: -5% 5% 0;
+  color: #232424;
+  vertical-align: middle;
+}
+#midcontainer .text h2{
+  margin: 0 0 20px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #232424;
+}
+/* 3 */
+#trocontainer{
+  z-index: 1;
+  position: relative;
+}
+#trocontainer .image{
+  float: right;
+  display: inline-block;
+  max-height: 400px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 55%;
+}
+#trocontainer .image img{
+  border: 0;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+#trocontainer .text{
+  text-align: right;
+  margin: 40px 5% 0;
+  width: 33%;
+  display: inline-block;
+  color: #232424;
+  vertical-align: middle;
+}
+#trocontainer .text h2{
+  margin: 0 0 20px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #232424;
+}
+/* 4 */
+#quadcontainer{
+  margin: 0 0 0 28%;
+}
+#quadcontainer h2{
+  border-right: 5px solid #ccd049;
+  color: #ccd049;
+  font-size: 60px;
+  font-weight: 400;
+  margin: -60px 10% 0;
+  padding: 110px 2% 200px 0;
+  position: relative;
+  text-align: right;
+  text-transform: uppercase;
+  z-index: 2;
+}
+#quadcontainer .image{
+  float: right;
+  margin: -160px 0 40px;
+  text-align: right;
+  width: 50%;
+  display: inline-block;
+  max-height: 400px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+#quadcontainer .image img{
+  border: 0;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+#quadcontainer .text{
+  float: left;
+  margin: -115px 5% 0;
+  text-align: center;
+  width: 40%;
+}
+/* 5 */
+#last{
+  text-align: center;
+  padding: 0 0 40px;
+  position: relative;
+}
+.map{
+  height: 265px;
+  overflow: hidden;
+  width: 100%;
+}
+#last .map img{
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+/*footer*/
+.contact{
+  width: 30%;
+  margin: -80px 0 0 49%;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 24px;
+  padding: 0 0 20px;
+  text-align: center;
+}
+.contact p{
+  padding: 40px 0 0;
+}
+.contact a{
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: #ccd049;
+}
