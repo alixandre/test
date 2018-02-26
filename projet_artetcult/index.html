@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cultur'Art Évry</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0," >
+
+    <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  </head>
+  <body>
+
+    <div id="conteneur">
+
+      <header id="main-header">
+
+        <a href="#" class="main-logo"><img src="images\logo.png" alt="logo"></a>
+
+        <nav class="mainNav"> <!-- Menu principal -->
+          <ul class="mainNav-list">
+            <li class="mainNav-item"><a href="#">DANSE</a></li>
+            <li class="mainNav-item"><a href="#">THEATRE</a></li>
+            <li class="mainNav-item"><a href="#">MUSIQUE</a></li>
+            <li class="mainNav-item"><a href="#">PEINTURE</a></li>
+            <li class="mainNav-item"><a href="#">INSCRIPTION</a></li>
+          </ul>
+        </nav> <!-- fin du Menu principal -->
+
+        <!-- Icône Menu Hamburger -->
+        <div class="burger" onclick="ouverture(this)">
+          <div class="top"></div>
+          <div class="bottom"></div>
+          <div class="menu-name">MENU</div>
+        </div>
+
+        <!-- Menu de la sidebar -->
+        <ul id="menu" class="sidemenu">
+          <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+
+        <!-- Slider d'images -->
+        <div class="bxslider">
+          <!-- Images composant le slider -->
+          <div>
+            <img src="images\img_slider1.jpg" alt="image visage">
+          </div>
+          <div>
+            <img src="images\img_slider2_2.jpg" alt="image salle de théâtre">
+          </div>
+          <div>
+            <img src="images\img_slider3_3.jpg" alt="image abstraite">
+          </div>
+        </div>
+
+      </header>
+
+      <section id="danse"> <!-- Section danse -->
+              <div class="titre_section">
+                <h2>Danse</h2>
+                <div class="trait line"></div>
+              </div>
+
+              <div class="danse">
+                <div class="imgdanse">
+            			<img class="image1" src="images/dance1.jpeg"  alt="image danse" />
+            		</div>
+                <div id="dansetxt1" class="dansetxt">
+            		  <h3>Danse festival</h3>
+              		<span class="date">02 Fév - 03 Mar 2018</span>
+              		<p>Les Hivernales 2018</p>
+              		<p>Daniel Larrieu</p>
+                </div>
+              </div>
+
+              <div class="danse">
+                <div id="dansetxt2" class="dansetxt">
+            		  <h3>Les Hivernales</h3>
+              		<span class="date">02 Fév - 03 Mar 2018</span>
+              		<p>Daniel Larrieu</p>
+                  <p>Lieu : Théâtre Golovine -1<BR />
+                     bis rue Sainte Catherine- AVIGNON</p>
+                </div>
+                <div class="imgdanse">
+            			<img class="image2" src="images/dance6.jpeg"  alt="image danse classique" />
+            		</div>
+              </div>
+            </section> <!-- fin de Section danse -->
+
+            <section id="musique">
+              <div id="m_a_1"> <!--musique article 1-->
+                  <h2><a href="#">Musique</a></h2>
+                <div id="m_a_1_image">
+                  <a href="#"><img src="images/m_a_1_image.PNG" alt="michael-jackson" /></a>
+                  <div class="overlay">
+                    <div class="text"><h3>Michael Jackson</h3><p>
+                     believed that all people are unique and equal, regardless of race or culture.</p><a href="https://www.michaeljackson.com/" target="_blank">Plus...</a> </div>
+                  </div>
+                </div>
+                <!--musique mobile -->
+                <div id="m_a_1_image_mobile">
+                  <a href="#"><img src="images/m_a_1_image.PNG" alt="michael-jackson" /></a>
+                    <div class="text_img_mobile"><h3>Michael Jackson</h3><p>
+                     believed that all people are unique and equal, regardless of race or culture.</p><a href="https://www.michaeljackson.com/" target="_blank">Plus...</a>
+                    </div>
+                </div><!--#m_a_1_image_mobile-->
+              </div> <!--# m_a_1 -->
+
+              <div id="m_a_2"> <!--musique article 2-->
+
+                <div id="m_a_2_image">
+                  <a href="#"><img src="images/m_a_2_image.png" alt="michael-jackson" /></a>
+                  <div class="overlay">
+                    <div class="text1"><h3>Présentation du cours</h3><p>
+                    Le cours de guitare en ligne pour bien débuter la guitare </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="plus_button">
+                  <h3><a href="https://www.myguitare.com/1-cours-de-guitare-debutant-gratuit-debuter-guitare" target="_blank">En savoir plus</a></h3>
+                </div>
+              </div> <!--# m_a_2 -->
+
+              <div id="m_a_3"> <!--musique article 3-->
+
+                <a href="#"><img src="images/m_a_3_image.png" alt="michael-jackson"/></a>
+                <div class="overlay">
+                  <div class="text"><h3> Imusic School</h3><p>
+                  Découvrez nos cours de Violon en ligne.</p>
+                  <a href="https://www.imusic-school.com/" target="_blank">Plus...</a></div>
+                </div>
+              </div> <!--# m_a_3 -->
+            </section> <!--#musique-->
+
+            <section id="theatre"> <!-- section théâtre -->
+                    <div class="titre_section">
+                      <h2>Théâtre</h2>
+                      <div class="trait line"></div>
+                    </div>
+
+                    <div class="piece">
+                      <img src="images\Ballet.png" alt="image ballet" class="image" />
+                      <div class="overl">
+                        <div class="texte">
+                          <h3>  Anastasia is a ballet created by Kenneth MacMillan.</h3><br />
+                          <hr />
+                         <p>The first version in one act was premiered in 1967 by the Deutsche Oper Ballet.
+                          In 1971 MacMillan expanded the work to three acts for the Royal Ballet; the original one-act version became the final act of the 1971 work.</p>
+                          <p>The 1967 version uses Martinů's Symphony No. 6 (1953) and untitled electronic music by Fritz Winckel and Rüdiger Rüfer...</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="piece">
+                      <img src="images\theatre3.jpg" alt="image pièce de théâtre" class="image" />
+                      <div class="overl">
+                        <div class="texte">
+                          <h3>Piece de théâtre Hamilton</h3><br />
+                          <hr />
+                          <p>Une comédie musicale américaine</p>
+                          <p>La comédie musicale débute avec un résumé de l’enfance d’Alexander Hamilton en tant qu’orphelin dans les Caraïbes (“Alexander Hamilton”).</p>
+                          <p>Hamilton est né hors des liens du mariage dans les Caraïbes ; son père l’a abandonné alors qu’il était jeune et sa mère est décédée lorsque Hamilton avait dix ans...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section> <!-- fin section théâtre -->
+
+
+                  <section id="peinture"> <!-- Section peinture -->
+                   <div class="titre_section">
+                     <h2>Peinture</h2>
+                     <div class="trait line"></div>
+                   </div>
+
+                   <div class="paint">
+                     <div class="imgpaint">
+                 			<img class="image1" src="images/paul-gauguin.jpg" alt="image" />
+                 		</div>
+                     <div id="painttxt1" class="painttxt">
+                 		  <h3>Paul Gauguin</h3>
+                   		<span class="date">Durant les années 1874-1886</span>
+                   		<p> Paul Gauguin allait se mouvoir </p>
+                   		<p>dans le sillage du mouvement impressionniste.</p>
+                     </div>
+                   </div>
+
+                   <div class="paint">
+                     <div id="painttxt2" class="dansetxt">
+                 		  <h3>Van Gogh</h3>
+                   		<span class="date"> né le 30 mars 1853 </span>
+                   		<p>Van Gogh grandit au sein d'une famille</p>
+                   		<p> de l'ancienne bourgeoisie.</p>
+                     </div>
+                     <div class="imgpaint">
+                 			<img class="image2" src="images\van-gogh.jpg"  alt="image" />
+                 		</div>
+                   </div>
+                  </section> <!-- fin de Section peinture -->
+
+     <section id="evenement">  <!-- section évènement -->
+       <div class="titre_section">
+         <h2>Évènement</h2>
+         <div class="trait line"></div>
+       </div>
+       <article class="event">
+         <div class="img_event">
+           <img src="images\event1.jpg" alt="Image évènement 1">
+         </div>
+         <div class="txt_event">
+           <h3>Ravy Magnifique Trio</h3>
+           <hr />
+           <span class="date">le 16/02/2018</span>
+           <p>Meeting #6 est une invitation à un voyage merveilleux au croisement des harmonies et des mélodies de Miles Davis, Charles Mingus...<br />
+           <a href="http://www.google.fr" target="_blank">Lire la suite</a></p>
+         </div>
+         <a href="http://www.google.fr" target="_blank"><div class="over"></div></a>
+       </article>
+       <article class="event">
+         <div class="img_event">
+           <img src="images\event2.jpg" alt="Image évènement 2">
+         </div>
+         <div class="txt_event">
+           <h3>Youssef Amghar</h3>
+           <hr />
+           <span class="date">le 18/01/2018 à 18h30</span>
+           <p>Venez découvrir l’artiste Youssef Amghar à l’occasion de l'exposition "Blue Note". Des photographies et des poèmes seront présentés...<br />
+           <a href="https://sortir.grandparissud.fr/evenements/exposition-photographique-de-l-artiste-youssef-amghar" target="_blank">Lire la suite</a></p>
+         </div>
+         <a href="https://sortir.grandparissud.fr/evenements/exposition-photographique-de-l-artiste-youssef-amghar" target="_blank"><div class="over"></div></a>
+       </article>
+       <article class="event">
+         <div class="img_event">
+           <img src="images\event3.jpg" alt="Image évènement 3">
+         </div>
+         <div class="txt_event">
+           <h3>Peintures</h3>
+           <hr />
+           <span class="date">Du 13 /01/2018 au 16 /02/2018</span>
+           <p>Exposition de Philippe Jacquard. Support papier, parfois marouflé sur toile. Écrits, "vestiges" d’écrits, allusions à des espaces "rêvés"...<br />
+           <a href="http://www.google.fr" target="_blank">Lire la suite</a></p>
+         </div>
+         <a href="http://www.google.fr" target="_blank"><div class="over"></div></a>
+        </article>
+      </section> <!-- fin section évènement -->
+
+      <footer id="footer"> <!-- Footer -->
+        <img class="logo_art" src="images/art.jpg" alt="logo association" />
+        <ul id="ressoc">
+          <li><a href="#">newsletter</a></li>
+            <li><a href="#"><img class="logo_fb" src="images/facebook.png" alt="logo facebook" /></a></li>
+              <li><a href="#"><img class="logo_twitter" src="images/twitter.png" alt="logo twitter" /></a></li>
+              <li><a href="#"><img class="logo_insta" src="images/instagram.png" alt="logo instagram" /></a></li>
+              <li><a href="#"><img class="logo_youtube" src="images/youtube.png" alt="logo youtube" /></a></li>
+              <li><a href="#conteneur"><img class="logo_ancre" src="images/ancre.png" alt="Retour haut de page" /></a></li>
+          </ul>
+          <div class="trait line_footer"></div>
+          <div class="nom">Association Cultur'Art</div>
+          <div class="adresse">
+            <p>39 rue du petit Bourg</p>
+            <p>91000 Evry</p>
+            <p>France</p>
+          </div>
+            <ul id="position">
+              <li><a href="#">Contactez-nous</a></li>
+              <li><a href="#">Foire au questions</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">Termes d'utilisation</a></li>
+            </ul>
+          <div class="trait line_footer"></div>
+        <div class="copyright"><p>Copyright GEN Evry Groupe 3 2018</p></div>
+        </footer> <!-- Fin du Footer -->
+
+      </div><!--#conteneur-->
+
+      <script src="script.js"></script>
+
+    </body>
+  </html>

@@ -1,0 +1,1347 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+/* Global */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
+ul li {
+	list-style-type:none;
+}
+
+span {
+	margin:0;
+	padding:0;
+}
+
+/**********/
+/** body **/
+/**********/
+
+#conteneur {
+  width:1300px;
+  margin: 0 auto;
+  background: #fafafa;
+  font-family: 'Old Standard TT', serif;
+}
+
+/*********************/
+/**   Menu Header   **/
+/*********************/
+
+.mainNav {
+  background-color: #fafafa;
+  padding:30px;
+  text-align: right;
+  margin-left:31%;
+}
+
+.main-logo ,.mainNav ,.mainNav-list ,.mainNav-item ,.burger {
+  display: inline-block;
+}
+
+.main-logo ,.mainNav-item {
+  margin-right: 30px;
+}
+
+.main-logo ,.mainNav ,.burger {
+	vertical-align: middle;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.top, .bottom {
+	width: 62px;
+	height: 10px;
+	background-color: black;
+	transition: all 400ms ease-in-out;
+}
+
+.bottom {
+	margin-top: 10px;
+}
+
+.rotate .top {
+	background-color: red;
+	height: 2px;
+  -webkit-transform: rotate(-45deg) translate(-13px, 10px);
+  transform: rotate(-45deg) translate(-13px, 10px);
+}
+
+.rotate .bottom {
+	background-color: red;
+	height: 2px;
+  -webkit-transform: rotate(45deg) translate(-12px, -12px);
+  transform: rotate(45deg) translate(-12px, -12px);
+}
+
+.menu-name {
+	color: black;
+	font-size: 19.5px;
+	text-decoration: none;
+	margin-top: 5px;
+	transition: all 350ms;
+}
+
+/* Side navigation menu */
+#menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.95);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+#menu li {
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+#menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#menu a:hover {
+  color: #f1f1f1;
+}
+
+/* Bouton fermeture menu */
+#menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/***********************/
+/**   Section Danse   **/
+/***********************/
+
+.titre_section {
+  color: #cc2434;
+  font-size: 40px;
+  margin: 20px 30px 20px 20px;
+}
+
+.trait {
+  background-color: #cc2434;
+  height: 6px;
+}
+
+.line{
+  width: 800px;
+}
+
+.titre_section h2 ,.trait {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#danse {
+	color: #cc2424;
+	font-size: 54px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.danse {
+  color: black;
+}
+
+.image2{
+	margin-top:-200px;
+  position: relative;
+}
+.image1{
+	margin-left:70px;
+
+}
+
+.imgdanse ,.dansetxt {
+  display: inline-block;
+  vertical-align:top;
+}
+
+#dansetxt1 {
+	border-right: 6px #cc2424 solid;
+	padding-right:30px;
+	padding-left:40px;
+	font-weight: bold;
+  height: 214px;
+
+}
+
+#dansetxt2 {
+  margin-left: 150px;
+  font-weight: bold;
+  margin-right: 115px;
+  margin-top: 20px;
+  padding-left: 20px;
+  border-left: 6px solid rgb(204, 36, 36);
+}
+
+#mini-bloc {
+  position: relative;
+  top: 26px;
+}
+
+.date {
+	color: #cc2424;
+	font-size: 20px;
+	_left: 882px;
+	_bottom: 310p}
+
+.hivernale {
+	color: black;
+	font-size: 26px;
+}
+
+.borderbis {
+	border-right: 8px #cc2424 solid;
+	width: 0px;
+	height: 500px;
+}
+
+.borderbis2 {
+	border-right: 8px #cc2424 solid;
+	width: 0px;
+	height: 500px;
+	margin-right:20px;
+}
+
+/*
+.titre_section {
+  color: #cc2434;
+  font-size: 40px;
+  margin: 20px 30px 20px 20px;
+  _font-family: gabriola, sans-serif;
+}
+
+.trait {
+  background-color: #cc2434;
+  height: 6px;
+}
+
+.line{
+  width: 800px;
+}
+
+.titre_section h2 ,.trait {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#danse {
+	color: #cc2424;
+	font-size: 54px;
+	margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.danse {
+  color: black;
+}
+
+.image2{
+  position: relative;
+	margin-top:-200px;
+}
+
+.image1{
+	margin-left:70px;
+
+}
+.imgdanse {
+	z-index: 3;
+}
+
+.imgdanse ,.dansetxt {
+  display: inline-block;
+  vertical-align:top;
+
+}
+
+#dansetxt1 {
+	border-right: 6px #cc2424 solid;
+	padding-right:30px;
+	padding-left:40px;
+	font-weight: bold;
+  height: 214px;
+
+}
+
+#dansetxt2 {
+  margin-left: 150px;
+    font-weight: bold;
+    margin-right: 115px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 6px solid rgb(204, 36, 36);
+}
+
+#mini-bloc {
+  position: relative;
+  top: 26px;
+}
+
+
+
+
+.date {
+	color: #cc2424;
+	font-size: 20px;
+	_position: relative;
+	_left: 881px;
+	_bottom: 318px;
+}
+
+.hivernale {
+	color: black;
+	font-size: 26px;
+	_position: relative;
+	_left: 882px;
+	_bottom: 310px;
+}
+
+
+
+.borderbis {
+	border-right: 8px #cc2424 solid;
+	width: 0px;
+	height: 500px;
+}
+
+.borderbis2 {
+	border-right: 8px #cc2424 solid;
+	width: 0px;
+	height: 500px;
+	margin-right:20px;
+} */
+
+/*********************/
+/** Section Musique **/
+/*********************/
+
+#musique {
+  padding: 40px 16px;
+}
+
+#m_a_1, #m_a_2, #m_a_3 {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* musique article 1 */
+#m_a_1_image_mobile {
+  display: none;
+}
+#m_a_1_image {
+  position: relative;
+  width:405px;
+  max-height: 300px;
+  margin-top: 15px;
+}
+
+/* Superposition d'image */
+
+.overlay {
+  _position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+#m_a_1_image:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #fafafa;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*-ms-transform: translate(-50%, -50%);*/
+  text-align: center;
+  background-color: #585858;
+  opacity: 0.8;
+
+}
+
+.text a {
+  text-decoration :underline;
+  color: inherit;
+
+}
+.text h3 {
+  font-size: 30px;
+  background-color:  #dee200;
+  color:#cc2424;
+  width: 100%;
+}
+#m_a_1 h2 {
+  margin-bottom: 25px;
+  color:#dee200;
+  background:#cc2424;
+  font-size: 40px;
+  width: 170px;
+  padding: 5px;
+  border-radius: 3px;
+}
+#m_a_1 h2 a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+
+/*musique article 2*/
+
+#m_a_2{
+  width: 480px;
+  height: 370px;
+  background: #cc2424;
+  text-align: center;
+
+}
+#m_a_2_image {
+  position: relative;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+#m_a_2_image:hover .overlay {
+  opacity: 1;
+}
+.text1 {
+  color: #fafafa;
+  _font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #585858;
+  opacity: 0.8;
+}
+.text1 h3 {
+  font-size: 30px;
+  background-color:  #dee200;
+  color:#cc2424;
+}
+p {
+  line-height: 1.5;
+  font-size: 20px;
+
+}
+#plus_button {
+  width: 350px;
+  height: 40px;
+  background: #dee200;
+  margin: 20px auto;
+}
+#plus_button h3 {
+  margin: 0 auto;
+ font-size: 30px;
+ padding-top: 7px;
+}
+#plus_button h3 a {
+  text-decoration: none;
+  color: inherit;
+
+}
+/*musique article 3*/
+
+#m_a_3 {
+  position: relative;
+  width:367px;
+  height: 336px;
+}
+#m_a_3:hover .overlay {
+  opacity: 1;
+}
+
+
+
+/***********************/
+/**  Section Théâtre  **/
+/***********************/
+#theatre {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.piece {
+  position: relative;
+  display: inline-block;
+  width: 600px;
+  margin-left: 30px;
+  vertical-align: top;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 560px;
+}
+
+.overl {
+  position: absolute;
+  bottom: 100%;
+  background-color: rgba(0,0,0,0.6);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.piece:hover .overl {
+  bottom: 0;
+  height: 100%;
+}
+
+.texte {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+
+.texte h3 {
+  font-size: 20px;
+}
+
+
+
+/***************************/
+/**   Section  peinture   **/
+/***************************/
+
+
+#peinture {
+	color: #cc2424;
+	font-size: 54px;
+	_position: relative;
+	_left: 200px;
+	_top: 20px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  _text-align: center;
+}
+
+.paint {
+  color: black;
+}
+
+
+
+.border {
+	border: 4px #cc2424 solid;
+	width: 724px;
+	margin-left:20px;
+	_position: relative;
+	_left: 402px;
+	_bottom: 5px;
+}
+
+.image2{
+	margin-top:-200px;
+}
+.image1{
+	margin-left: 30px;
+
+}
+.imgpaint {
+	_position: relative;
+	_left: 160px;
+	_top: 44px;
+	z-index: 3;
+}
+
+.imgpaint ,.painttxt {
+  display: inline-block;
+  vertical-align:top;
+
+}
+
+#painttxt1 {
+	border-right: 6px #cc2424 solid;
+	padding-right: 30px;
+	padding-left: 40px;
+	font-weight: bold;
+  height: 214px;
+
+}
+
+#mini-bloc2 {
+  position: relative;
+  top: 26px;
+}
+
+#painttxt2 {
+  margin-left: 150px;
+    font-weight: bold;
+    margin-right: 130px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 6px solid rgb(204, 36, 36);
+
+}
+
+.date {
+	color: #cc2424;
+	font-size: 20px;
+	_position: relative;
+	_left: 881px;
+	_bottom: 318px;
+}
+
+.hivernale {
+	color: black;
+	font-size: 26px;
+	_position: relative;
+	_left: 882px;
+	_bottom: 310px;
+}
+
+
+
+.borderbis {
+	border-right: 8px #cc2424 solid;
+	width: 0px;
+	height: 500px;
+}
+
+.borderbis2 {
+	border-right: 8px #cc2424 solid;
+	width: 0px;
+	height: 500px;
+	margin-right:20px;
+}
+
+
+
+
+/************************/
+/** Section évènements **/
+/************************/
+
+
+#evenement {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.img_event {
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+}
+
+.txt_event p a {
+  display:none;
+}
+
+.txt_event{
+  padding-top: 20px;
+  padding-left: 15px;
+  width: 380px;
+  height: auto;
+}
+
+.txt_event P {
+  font-size: 17px!important;
+}
+.event {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin :0px 0px 15px 20px;
+  height: auto;
+}
+
+.over {
+  position: absolute;
+  width: 402px;
+  height: 100%;
+  background:gray;
+  opacity: 0;
+  transition: .5s ease;
+  top: 0;
+}
+
+.event:hover .over {
+  opacity: 0.2;
+}
+
+.txt_event h3 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.txt_event span ,.txt_event p {
+  font-size: 22px;
+}
+
+.txt_event span {
+  font-weight: bold;
+}
+
+.txt_event p {
+  margin-top: 5px;
+}
+
+
+/********************/
+/**     Footer     **/
+/********************/
+
+#footer {
+  background: #242424;
+  width: 100%;
+}
+
+.logo_art {
+  margin: 40px 0px 10px 50px;
+}
+
+.logo_art ,.bloc_newsletter ,#ressoc ,#ressoc li ,#position li {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+#ressoc li {
+	margin: 0px;
+	padding: 6px;
+  background: #747474;
+  max-height: 48px;
+}
+
+#ressoc li:first-child {
+  width: 124px;
+  max-height: 48px;
+  color: #242424;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 625px;
+  padding:18px 18px 18px;
+  text-align: center;
+}
+
+#ressoc li img {
+  height: 40px;
+}
+
+#ressoc a:visited {
+  color: #242424;
+}
+
+#ressoc li:first-child:hover {
+  background: #EB4949;
+}
+
+#ressoc li:nth-child(2):hover {
+  background: #556FA6;
+}
+
+#ressoc li:nth-child(3):hover {
+  background: #8CC6F3;
+}
+
+#ressoc li:nth-child(4):hover {
+  background: #E16AA2;
+}
+
+#ressoc li:nth-child(5):hover {
+  background: red;
+}
+
+#ressoc li:last-child:hover {
+  background: green;
+}
+
+.line_footer {
+  width: 1200px;
+  background-color: #da0112;
+  margin: 0 50px;
+  height: 3px;
+}
+
+.nom ,.adresse p ,#position {
+  text-align: right;
+  margin-right: 50px;
+  color: white;
+}
+
+.nom {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.adresse p {
+  font-size: 24px;
+}
+
+#position li {
+  font-size: 18px;
+  text-decoration: underline;
+  margin: 5px 2px 20px;
+}
+
+#position a:visited {
+  color: white;
+}
+
+.copyright {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/************************/
+/**        mobile      **/
+/************************/
+/*media Queries*/
+/*mobile(360px_640px)*/
+@media only screen and (min-width : 360px) and (max-width : 640px) {
+
+  div {
+    display:block;
+  }
+
+  #conteneur {
+  width: auto;
+  text-align: center;
+  }
+  .mainNav {
+    display:none;
+  }
+
+  .main-logo, .burger {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .burger {
+    margin-left: 195px;
+  }
+
+  /******** section danse *******/
+
+  .trait {
+    height: 4px;
+  }
+
+  .line ,.line_footer {
+    width: calc(100% - 40px);
+  }
+
+  #danse {
+  	font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 85%;
+  }
+
+  #dansetxt2 {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .image2{
+  	margin-top:40px;
+    margin-left:30px;
+  }
+
+  /*** Théâtre ***/
+
+  .piece ,.event {
+    pointer-events:none;
+  }
+
+  .piece {
+    width: 300px;
+    margin: 10px auto;
+  }
+
+  .image {
+    height: auto;
+  }
+
+  .overl {
+    position: relative;
+    height: auto;
+    width: (calc 100% - 20px);
+    margin: 10px auto;
+    background-color: inherit;
+  }
+
+  .texte {
+    color: inherit;
+    position: static;
+    transform : none;
+    margin: 0 auto;
+  }
+
+  /******** musique *******/
+  #musique {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  #m_a_1 ,#m_a_2 ,#m_a_3 {
+    position: relative;
+  }
+
+  #m_a_1 h2 {
+    margin-bottom: 20px;
+    margin-left: 90px;
+  }
+
+  #m_a_2 {
+    background: #fafafa;
+    text-align: center;
+  }
+
+  #m_a_2_image img {
+    position: absolute;
+    left:65px;
+    top:15px;
+    text-align: center;
+  }
+
+  #plus_button {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    top:290px;
+    left: 4px;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .overlay_mobile1 ,.overlay_mobile2 ,.overlay_mobile3 {
+    position: absolute;
+    display: block;
+    opacity: 1;
+  }
+
+  .overlay_mobile1 ,.overlay_mobile3 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .overlay_mobile1 {
+    top:30px;
+    left:-25px;
+  }
+
+  .overlay_mobile2 {
+    top:-30px;
+    left:-46px;
+    height: 100%;
+    width: 93%;
+  }
+
+  .overlay_mobile3 {
+    top:0px;
+    left:0px;
+  }
+
+  #m_a_1_image:hover .overlay ,#m_a_2_image:hover .overlay ,#m_a_3:hover .overlay {
+    display: none;
+  }
+
+  /******* peinture *******/
+
+  #peinture ,#painttxt2 {
+    width: 85%;
+  }
+
+  #peinture {
+    margin-bottom: 20px;
+  }
+
+  .imgpaint .image2 {
+    margin-top:40px;
+    margin-left:30px;
+  }
+
+  #painttxt2 {
+    top:30px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  /***** Section évènements *****/
+
+  #evenement {
+    margin-bottom: 20px;
+  }
+
+  .txt_event p a ,.event {
+    display:block;
+  }
+  .event a ,.over {
+    display: none;
+  }
+
+  .event {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .event ,.txt_event {
+    width: 300px;
+  }
+
+  .img_event {
+    width: 300px;
+
+  }
+
+  .txt_event{
+    padding: 0px;
+    padding-left: 0px;
+  }
+
+  /*** Footer ***/
+
+  .logo_art {
+    margin: 10px auto 0px;
+  }
+
+  .bloc_newsletter ,#ressoc ,#ressoc li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  #ressoc li {
+    padding: 5px;
+    max-height: 30px;
+  }
+
+  #ressoc li:first-child {
+    margin: 20px 0px;
+    padding: 6px 0px;
+  }
+
+  #ressoc li img {
+    height: 20px;
+  }
+
+  .nom ,.adresse p ,#position {
+    margin-right: 20px;
+  }
+
+  .line_footer {
+    width: calc(100% - 40px);
+    background-color: #da0112;
+    margin: 0 auto;
+  }
+
+}
+
+/**************************/
+/**        tablette      **/
+/**************************/
+/*Media Queries*/
+/*tablette(768px_1024px)*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+    body { width:auto; font-size:130%; }
+    h2{ text-align: center;}
+    div {display:block;}
+
+    #conteneur {
+    width: 100%;
+    text-align: center;
+    }
+    /*#main-header {
+      width: 100%;
+    }*/
+    .mainNav {display:none;}
+    .main-logo, .burger {
+    display: inline-block;
+    width: 6%;
+    }
+    .burger {
+      margin: 2px 62px 35px 350px;
+      padding: 34px 11px 6px 192px;
+    }
+    .line_footer{
+      width: 80%;
+    }
+   }
+   /********* Section Danse ************/
+  #danse{
+    width: 100%;
+  }
+  #dansetxt2 ,.dansetxt{
+    margin: -5px -36px 203px 0px;
+    padding: 0px 28px 1px 94px;
+  }
+  .dansetxt{
+    margin: 0 0 30px 0;
+  }
+   /************** Fin Danse ****************/
+  /*************** Section Musique ****************/
+  #musique{
+    width: 100%
+  }
+  #m_a_1_image {display: none;}
+  #m_a_1_image_mobile{display: block;}
+  #m_a_1{
+    _position: relative;
+    text-align: center;
+    display: block;
+    _margin: 0px 33px 0px 299px;
+  }
+  .text_img_mobile {
+    color: #fafafa;
+    font-size: 25px;
+    font-weight: bold;
+    _top: 50%;
+    _left: 50%;
+    transform: translate(-50%, -50%);
+    /*-ms-transform: translate(-50%, -50%);*/
+    text-align: center;
+    background-color: #585858;
+    opacity: 0.8;
+  }
+
+
+  #m_a_1 h2{
+    text-align: center;
+
+
+   /***************Fin Musique*******************************/
+  /*********************Section Théâtre**********************/
+  #theatre {
+    width: 100%;
+  }
+  .image{
+    margin: 0px 0px 0px 0px;
+  }
+  .piece {
+    margin: 3px 0px 6px 32px;
+  }
+  .overl {
+    position: absolute;
+    bottom: 100%;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .piece:hover .overl {
+    display: none;
+  }
+   /******** fin Section Théatre ********/
+  /******** Section  peinture ********/
+  #peinture{
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .image1{
+    margin-left: 32px;
+  }
+  .line{
+    text-align: center;
+  }
+  .trait{
+    width: 100%;
+  }
+  #painttxt2{
+  _padding-top: 327px;
+  }
+  #painttxt2{
+    padding: 9% 4% 21% 6%;
+    margin: 0 0 0 0;
+  }
+  /******** fin Section peinture ********/
+  /******** section evenement ********/
+  #evenement{
+    width: 100%;
+    text-align: center;
+  }
+  .titre_section{
+    text-align: center;
+  }
+  .event{
+    display: block;
+    margin: 0 0 0 30%;
+  }
+.img_event  {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  }
+  .img_event img {width: 300px;
+  height: 300px;}
+  .over {display: none;}
+   /*****fin evenement*****/
+
+   /********footer********/
+
+  #ressoc{
+    padding: 0 0 0 0;
+    margin: 0% 0% 0% -45%;
+  }
+  .nom{
+    margin:0;
+    padding: 0;
+    text-align: center;
+  }
+  .adresse p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #position{
+    text-align: center;
+  }
+  .copyright{
+    text-align: center;
+  }
+
+  /********fin footer*********/
+
+}
