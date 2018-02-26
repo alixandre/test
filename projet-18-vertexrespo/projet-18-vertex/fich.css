@@ -1,0 +1,421 @@
+/*******GENERAL********/
+body{
+  font-family: arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+.button_1{
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: #e8491d 3px solid;
+}
+/**/
+/*********HEADER*********/
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand{
+  float: left;
+}
+
+header #brand h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+/**/
+/*********SHOWCASE*********/
+#showcase{
+  min-height: 400px;
+  position: relative;
+  background: no-repeat;
+  text-align: center;
+  color: #e8491d;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 55px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+/**/
+/**********NEWSLETTER***********/
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a
+}
+
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+/**/
+/**************BOX***************/
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 90px;
+}
+/**/
+/********SIDEBARPAGE2***********/
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+/**/
+/*************ARTICLEPAGE3*************/
+article#main-col{
+  float: left;
+  width: 65%;
+}
+/**/
+/****************FORMNAV***************/
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+/**/
+/***************FOOTER**************/
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
+/**/
+/***********VERTEXHIGHLIGHT*********/
+.highlight{
+  color: #e8491d;
+  font-weight: bold;
+}
+/**/
+/**********360*480***********/
+@media only screen and (min-device-width : 360px) and (max-device-width : 480px){
+header #brand,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  
+header nav li{
+	  font-size: 100%;
+	  display:block;
+	  text-align: left;
+  }
+  
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+	font-size: 100%;
+  }
+  #showcase img{
+	  width:100%;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+
+/**/
+/**********481*768***********/
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px){
+header #brand,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  
+header nav li{
+	  font-size: 100%;
+	  display:block;
+	  text-align: left;
+  }
+  
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+	font-size: 100%;
+  }
+  #showcase img{
+	  width:100%;
+  }
+  
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+
+/**/
+/*********769*1024***********/
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px){
+header #brand,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  
+  header nav li{
+	  font-size: 100%;
+	  display:block;
+	  text-align: left;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+   font-size: 100%;
+  }
+  #showcase img{
+	  width:100%;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+/**/
+/**************320*568*****************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px){
+header #brand,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  
+  header nav li{
+	  font-size: 100%;
+	  display:block;
+	  text-align: left;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+   font-size: 100%;
+  }
+  #showcase img{
+	  width:100%;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
+/********************************************************************/
+/** first try animation dont get it *********************************
+75% {                               
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+header h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+header nav ul {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+**/
