@@ -1,0 +1,66 @@
+body {
+ font-family:arial;
+ font-size:90%;
+ }
+ 
+form {
+ padding:10px;
+ width:240px;
+ margin:10px;
+ }
+ 
+textarea{
+	vertical-align: top;
+}
+.button {
+	padding-left: 94px;
+}
+
+label {
+ display:inline-block;
+ text-align:left;
+ width: 90px;
+ }
+
+input, textarea, select {
+ border: 1px solid black;
+ }
+ 
+input, textarea {
+ width:250px;
+ }
+ 
+select {
+ margin-top:10px;
+ }
+ 
+input {
+ border:1px solid black;
+ width:100px;
+ margin-left:5px;
+ }
+ 
+ .content {
+	 border:1px solid black;
+	 width : 400px
+ }
+ 
+ submit{
+	 
+ }
+ 
+ div{
+	 margin-top: 5px;
+ }
+ 
+ .id{
+	 position: inline-block;
+ }
+ 
+ .pot-1{
+	 position: inline-block;
+ }
+ 
+ .pot-2{
+	position: inline-block; 
+ }

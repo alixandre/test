@@ -1,0 +1,44 @@
+#triangle1{
+ position:relative;
+ height : 0;
+ width : 0;
+ border-right : 100px solid transparent;
+ border-bottom : 150px solid red;
+ border-left : 100px solid transparent;
+ top: 272px; 
+ left: 140px;
+ z-index: 4;
+}
+#triangle2{
+ position:relative;
+ height : 0;
+ width : 0;
+ border-right : 150px solid transparent;
+ border-bottom : 200px solid yellow;
+ border-left : 150px solid transparent;
+ top: 90px; 
+ left: 90px;
+ z-index: 3;
+}
+#triangle3{
+ position:relative;
+ height : 0;
+ width : 0;
+ border-right : 200px solid transparent;
+ border-bottom : 250px solid blue;
+ border-left : 200px solid transparent;
+ top: -135px; 
+ left: 40px;
+ z-index: 2;
+}
+#triangle4{
+ position:relative;
+ height : 0;
+ width : 0;
+ border-right : 250px solid transparent;
+ border-bottom : 300px solid green;
+ border-left : 250px solid transparent;
+ top: -414px; 
+ left: -10px;
+ z-index: 1;
+}

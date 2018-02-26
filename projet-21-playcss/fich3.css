@@ -1,0 +1,51 @@
+
+#triangle1{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 20px solid transparent;
+ border-bottom : 103px solid red;
+border-radius: 50%/100px 100px 0 0;
+}
+#triangle2{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 11px solid transparent;
+ border-bottom : 103px solid red;
+ border-left : 9px solid transparent;
+ border-radius: 50%/100px 100px 0 0;
+}
+#triangle3{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-right : 20px solid transparent;
+ border-bottom : 103px solid red;
+ border-radius: 50%/100px 100px 0 0;
+}
+#triangle4{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-bottom : 103px solid red;
+ border-left : 20px solid transparent;
+ border-radius: 50%/100px 100px 0 0;
+}
+#cone {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 100px solid red;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#trapezium {
+    height: 0;
+    width: 120px;
+    border-bottom: 120px solid #ec3504;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}

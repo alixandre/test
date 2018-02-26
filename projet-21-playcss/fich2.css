@@ -1,0 +1,41 @@
+
+#trianglem1{
+ position : relative;
+ height : 0;
+ width : 0;
+ border-top : 100px solid transparent;
+ border-bottom : 100px solid transparent;
+ border-left : 173px solid red;
+ top: 149px; 
+ right: -48px;
+}
+#trianglem2{
+ position : relative;
+ height : 0;
+ width : 0;
+ border-top : 100px solid transparent;
+ border-right : 173px solid red;
+ border-bottom : 100px solid transparent;
+ top: -53px; 
+ right: -244px;
+}
+#trianglem3{
+ position : relative;
+ height : 0;
+ width : 0;
+ border-top : 173px solid red;
+ border-right : 100px solid transparent;
+ border-left : 100px solid transparent;
+ top: -332px; 
+ right: -135px;
+}
+#trianglem4{
+ position : relative;
+ height : 0;
+ width : 0;
+ border-right : 100px solid transparent;
+ border-bottom : 173px solid red;
+ border-left : 100px solid transparent;
+ top: -317px; 
+ right: -135px;
+}
